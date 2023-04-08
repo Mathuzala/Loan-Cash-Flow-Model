@@ -20,7 +20,7 @@ mycanvas = Canvas(wrapper0)
 mycanvas.pack(side = LEFT, fill = "both", expand ="yes")
 
 # Adding Image
-my_image = ImageTk.PhotoImage(Image.open("mvww_v4.png"))
+my_image = ImageTk.PhotoImage(Image.open("image.png"))
 mycanvas.create_image(0,0,image=my_image, anchor="center")
 
 image_label = Label(image = my_image)
